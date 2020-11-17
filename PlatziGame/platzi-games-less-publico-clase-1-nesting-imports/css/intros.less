@@ -4,6 +4,8 @@
     padding: 10PX;
     margin: 0 auto;
     position: relative;
+    background-color: @color-claro;
+    .sombra-caja;
     &__imagen{
         width: 1320px;
         position: absolute;
@@ -25,14 +27,14 @@
 
     }
     &__categoria{
-        font-family: @fuente2;
-        text-transform: uppercase
+       color: fade(@color-claro, 50%);
+       .Oswald;
         
     }
     &__titulo{
         font-family: @fuente2;
         text-transform: uppercase;
-        font-size: 50px;
+        .fuente(50px);
     }
     &__autor {
         width: 150px;
@@ -51,6 +53,9 @@
         }
         span {
             display: inline-block
+        }
+        &-titulo{
+            color: fade(@color-claro, 50%)
         }
     }
 };  

@@ -4,6 +4,22 @@
 @color-variacion: #012179;
 @fuente1: "lato", sans-serif;
 @fuente2: "oswald", sans-serif;
+@fuente-base: 18px;
+
+.sombra-caja {
+    box-shadow: 0px 5px 15px 0px fade(@color-primario, 50%)
+} //esto es un mexin
+
+.Oswald{
+    font-family: @fuente2;
+    text-transform: uppercase;
+    font-weight: 700;
+} //esto es un mixin
+
+.fuente (@font-size){
+    font-size: @font-size;
+    line-height: @font-size + 10%;
+}
 
 *{
     box-sizing: border-box;
@@ -13,10 +29,10 @@ body{
     margin: 0;
     font-family: @fuente1;
     color: @color-primario ;
+    .fuente (@fuente-base)
 }
 
 h1,h2,h3{
-    font-family: @fuente2;
-    text-transform: uppercase;
     margin:0;
+    .Oswald;
 }
