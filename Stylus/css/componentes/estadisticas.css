@@ -1,0 +1,17 @@
+.estadistica--articulo {
+  height: 70px;
+  padding: 20px;
+  border-top: 1px solid color-primario;
+}
+.estadistica--articulo ul {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  justify-content: space-evenly;
+}
+.estadistica--articulo ul li {
+  list-style: none;
+}
+.estadistica--articulo ul span {
+  margin-left: 10px;
+}
