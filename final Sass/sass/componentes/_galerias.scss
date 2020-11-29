@@ -1,6 +1,6 @@
 .galeria {
 
-	width: 50%;
+	width: 60%;
 	height: 250px;
 	margin: 10px auto;
 	padding: 20px 0 0 30px;
@@ -28,6 +28,36 @@
 		border-radius: 10px;
 	}
 }
+// .galeria{
+//     width: 60%;
+//     height: 250px;
+//     margin: 10px auto;
+//     padding: 20px 0 0 30px;
+// 	justify-content: space-evenly;
+// 	background-color: $color-claro;
+//     @include caja;
+//     &__foto-principal {
+//         float: left;
+//         margin-right: 10px;
+//     }
+//     &__foto-principal img{
+//         width: 160px;
+//     }
+//     &__fotos-adicionales img {
+//         height: 70px;
+//         margin-right: 5px;
+//         margin-bottom: 10px;
+//     }
+//     h2 {
+//         margin-bottom: 10px;
+//         font-weight: 600;
+//         font-size: 20px;
+// 		@include titulos(Fuente2)
+//     }
+//     img {
+//         border-radius: 10px;
+//     }
+// }
 
 
 	

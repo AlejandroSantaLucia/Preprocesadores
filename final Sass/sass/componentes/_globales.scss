@@ -9,8 +9,8 @@
 $Fuente1: 'Lato', sans-serif;
 $Fuente2: 'Oswald', sans-serif;
 $color-primario: #333333;
-$color-secundario: #8841DA;
-$color-variacion: #3f579a;
+$color-secundario: #2e1b85;
+$color-variacion: #33abbb;
 $color-claro: #FFF;
 
 //Mixins
@@ -65,5 +65,5 @@ body {
 main {
 	display: flex;
 	width: 100%;
-	height: 100vh;
+	// height: 100vh;
 }

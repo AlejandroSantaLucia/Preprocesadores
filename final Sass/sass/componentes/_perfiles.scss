@@ -1,6 +1,7 @@
 
 .perfil {
 	width: 50%;
+	height: 1200px;
 	padding-top: 50px;
 	color: $color-claro;
 	background-color: $color-secundario;	
@@ -8,6 +9,7 @@
 		display: block;
 		margin: 0 auto;
 		border-radius: 50em;
+		width: 90px;
 	}
 	&__nombre {
 		text-align: center;
