@@ -637,8 +637,8 @@ main {
 }
 
 .galeria {
-  width: 60%;
-  height: 250px;
+  width: 90%;
+  height: 290px;
   margin: 10px auto;
   padding: 20px 0 0 30px;
   justify-content: space-evenly;
@@ -650,6 +650,10 @@ main {
 .galeria__foto-principal {
   float: left;
   margin-right: 10px;
+  width: 200px;
+}
+.galeria__foto-principal img {
+  width: 200px;
 }
 .galeria__fotos-adicionales img {
   height: 70px;

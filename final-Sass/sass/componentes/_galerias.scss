@@ -1,7 +1,7 @@
 .galeria {
 
-	width: 60%;
-	height: 250px;
+	width: 90%;
+	height: 290px;
 	margin: 10px auto;
 	padding: 20px 0 0 30px;
 	justify-content: space-evenly;
@@ -11,6 +11,11 @@
 	&__foto-principal {
 		float: left;
 		margin-right: 10px;
+		width: 200px;
+		img {
+			width: 200px;
+		};
+		
 	}
 	&__fotos-adicionales img {
 		height: 70px;
